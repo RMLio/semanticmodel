@@ -1,0 +1,14 @@
+{
+  "name": "semanticmodel",
+  "version": "0.0.1",
+  "description": "Implementation of the semantinc model as defined by Mohsen Taheriyan.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pieter Heyvaert",
+  "license": "MIT",
+  "dependencies": {
+    "extend": "^3.0.0"
+  }
+}
