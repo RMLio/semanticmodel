@@ -1,0 +1,56 @@
+{
+  "nodes": [
+    {
+      "type": 0,
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "aac:CulturalHeritageObject",
+      "id": 0
+    },
+    {
+      "type": 0,
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 1
+    },
+    {
+      "type": 0,
+      "tags": [
+        "dma"
+      ],
+      "label": "skos:Concept",
+      "id": 2
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:EuropeanaAggregation",
+      "id": 3
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:WebResource",
+      "id": 4
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 5
+    }
+  ],
+  "edges": [],
+  "counter": 6
+}

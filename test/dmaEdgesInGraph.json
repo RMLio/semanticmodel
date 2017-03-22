@@ -1,0 +1,117 @@
+{
+  "nodes": [
+    {
+      "type": 0,
+      "tags": [
+        "dma"
+      ],
+      "label": "aac:CulturalHeritageObject",
+      "id": 0
+    },
+    {
+      "type": 0,
+      "tags": [
+        "dma"
+      ],
+      "label": "aac:Person",
+      "id": 1
+    },
+    {
+      "type": 0,
+      "tags": [
+        "dma"
+      ],
+      "label": "skos:Concept",
+      "id": 2
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "creationDate",
+      "id": 3
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "title",
+      "id": 4
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "name",
+      "id": 5
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "type",
+      "id": 6
+    }
+  ],
+  "edges": [
+    {
+      "tags": [
+        "dma"
+      ],
+      "label": "dcterms:created",
+      "source": 0,
+      "target": 3,
+      "id": 7
+    },
+    {
+      "tags": [
+        "dma"
+      ],
+      "label": "dcterms:creator",
+      "source": 0,
+      "target": 1,
+      "id": 8
+    },
+    {
+      "tags": [
+        "dma"
+      ],
+      "label": "dcterms:hasType",
+      "source": 0,
+      "target": 2,
+      "id": 9
+    },
+    {
+      "tags": [
+        "dma"
+      ],
+      "label": "dcterms:title",
+      "source": 0,
+      "target": 4,
+      "id": 10
+    },
+    {
+      "tags": [
+        "dma"
+      ],
+      "label": "foaf:name",
+      "source": 1,
+      "target": 5,
+      "id": 11
+    },
+    {
+      "tags": [
+        "dma"
+      ],
+      "label": "skos:prefLabel",
+      "source": 2,
+      "target": 6,
+      "id": 12
+    }
+  ],
+  "counter": 13
+}

@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "type": 0,
+      "tags": [
+        "dma"
+      ],
+      "label": "aac:CulturalHeritageObject",
+      "id": 0
+    },
+    {
+      "type": 0,
+      "tags": [
+        "dma"
+      ],
+      "label": "aac:Person",
+      "id": 1
+    },
+    {
+      "type": 0,
+      "tags": [
+        "dma"
+      ],
+      "label": "skos:Concept",
+      "id": 2
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "creationDate",
+      "id": 3
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "title",
+      "id": 4
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "name",
+      "id": 5
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "type",
+      "id": 6
+    }
+  ],
+  "edges": [],
+  "counter": 7
+}

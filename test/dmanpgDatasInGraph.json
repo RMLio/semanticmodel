@@ -1,0 +1,120 @@
+{
+  "nodes": [
+    {
+      "type": 0,
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "aac:CulturalHeritageObject",
+      "id": 0
+    },
+    {
+      "type": 0,
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 1
+    },
+    {
+      "type": 0,
+      "tags": [
+        "dma"
+      ],
+      "label": "skos:Concept",
+      "id": 2
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "creationDate",
+      "id": 3
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "title",
+      "id": 4
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "name",
+      "id": 5
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "type",
+      "id": 6
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:EuropeanaAggregation",
+      "id": 7
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:WebResource",
+      "id": 8
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 9
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "creationDate",
+      "id": 10
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "image",
+      "id": 11
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "artist",
+      "id": 12
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "name",
+      "id": 13
+    }
+  ],
+  "edges": [],
+  "counter": 14
+}

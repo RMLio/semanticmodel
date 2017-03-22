@@ -1,0 +1,151 @@
+{
+  "nodes": [
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:EuropeanaAggregation",
+      "id": 0
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:CulturalHeritageObject",
+      "id": 1
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:WebResource",
+      "id": 2
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 3
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 4
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "artist",
+      "id": 5
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "name",
+      "id": 6
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "creationDate",
+      "id": 7
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "image",
+      "id": 8
+    }
+  ],
+  "edges": [
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:aggregatedCHO",
+      "source": 0,
+      "target": 1,
+      "id": 9
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:hasView",
+      "source": 0,
+      "target": 2,
+      "id": 10
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "dcterms:creator",
+      "source": 1,
+      "target": 3,
+      "id": 11
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:sitter",
+      "source": 1,
+      "target": 4,
+      "id": 12
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "dcterms:created",
+      "source": 1,
+      "target": 7,
+      "id": 13
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "karma:uri",
+      "source": 2,
+      "target": 8,
+      "id": 14
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "foaf:name",
+      "source": 3,
+      "target": 5,
+      "id": 15
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "foaf:name",
+      "source": 4,
+      "target": 6,
+      "id": 16
+    }
+  ],
+  "counter": 17
+}

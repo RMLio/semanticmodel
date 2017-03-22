@@ -1,0 +1,46 @@
+{
+  "nodes": [
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:EuropeanaAggregation",
+      "id": 0
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:CulturalHeritageObject",
+      "id": 1
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:WebResource",
+      "id": 2
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 3
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 4
+    }
+  ],
+  "edges": [],
+  "counter": 5
+}

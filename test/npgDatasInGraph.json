@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:EuropeanaAggregation",
+      "id": 0
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:CulturalHeritageObject",
+      "id": 1
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:WebResource",
+      "id": 2
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 3
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 4
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "creationDate",
+      "id": 5
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "image",
+      "id": 6
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "artist",
+      "id": 7
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "name",
+      "id": 8
+    }
+  ],
+  "edges": [],
+  "counter": 9
+}

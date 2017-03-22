@@ -1,0 +1,209 @@
+{
+  "nodes": [
+    {
+      "type": 0,
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "aac:CulturalHeritageObject",
+      "id": 0
+    },
+    {
+      "type": 0,
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 1
+    },
+    {
+      "type": 0,
+      "tags": [
+        "dma"
+      ],
+      "label": "skos:Concept",
+      "id": 2
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "creationDate",
+      "id": 3
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "title",
+      "id": 4
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "name",
+      "id": 5
+    },
+    {
+      "type": 1,
+      "tags": [
+        "dma"
+      ],
+      "label": "type",
+      "id": 6
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:EuropeanaAggregation",
+      "id": 13
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:WebResource",
+      "id": 14
+    },
+    {
+      "type": 0,
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:Person",
+      "id": 15
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "image",
+      "id": 16
+    },
+    {
+      "type": 1,
+      "tags": [
+        "npg"
+      ],
+      "label": "name",
+      "id": 17
+    }
+  ],
+  "edges": [
+    {
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "dcterms:created",
+      "source": 0,
+      "target": 3,
+      "id": 7
+    },
+    {
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "dcterms:creator",
+      "source": 0,
+      "target": 1,
+      "id": 8
+    },
+    {
+      "tags": [
+        "dma"
+      ],
+      "label": "dcterms:hasType",
+      "source": 0,
+      "target": 2,
+      "id": 9
+    },
+    {
+      "tags": [
+        "dma"
+      ],
+      "label": "dcterms:title",
+      "source": 0,
+      "target": 4,
+      "id": 10
+    },
+    {
+      "tags": [
+        "dma",
+        "npg"
+      ],
+      "label": "foaf:name",
+      "source": 1,
+      "target": 5,
+      "id": 11
+    },
+    {
+      "tags": [
+        "dma"
+      ],
+      "label": "skos:prefLabel",
+      "source": 2,
+      "target": 6,
+      "id": 12
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:aggregatedCHO",
+      "source": 13,
+      "target": 0,
+      "id": 18
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "edm:hasView",
+      "source": 13,
+      "target": 14,
+      "id": 19
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "aac:sitter",
+      "source": 0,
+      "target": 15,
+      "id": 20
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "karma:uri",
+      "source": 14,
+      "target": 16,
+      "id": 21
+    },
+    {
+      "tags": [
+        "npg"
+      ],
+      "label": "foaf:name",
+      "source": 15,
+      "target": 17,
+      "id": 22
+    }
+  ],
+  "counter": 23
+}

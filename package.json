@@ -4,11 +4,15 @@
   "description": "Implementation of the semantinc model as defined by Mohsen Taheriyan.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Pieter Heyvaert",
   "license": "MIT",
   "dependencies": {
     "extend": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.4.4"
   }
 }
