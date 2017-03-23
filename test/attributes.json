@@ -1,0 +1,64 @@
+{
+  "attributes": [
+    {
+      "attribute": "credit",
+      "semanticTypes": [
+        {
+          "class": "aac:CulturalHeritageObject",
+          "predicate": "dcterms:provenance",
+          "confidence": 0.83
+        },
+        {
+          "class": "aac:Person",
+          "predicate": "ElementsGr2:note",
+          "confidence": 0.06
+        }
+      ]
+    },
+    {
+      "attribute": "title",
+      "semanticTypes": [
+        {
+          "class": "aac:CulturalHeritageObject",
+          "predicate": "dcterms:title",
+          "confidence": 0.49
+        },
+        {
+          "class": "aac:CulturalHeritageObject",
+          "predicate": "rdfs:title",
+          "confidence": 0.49
+        }
+      ]
+    },
+    {
+      "attribute": "classification",
+      "semanticTypes": [
+        {
+          "class": "skos:Concept",
+          "predicate": "skos:prefLabel",
+          "confidence": 0.58
+        },
+        {
+          "class": "skos:Concept",
+          "predicate": "rdfs:label",
+          "confidence": 0.41
+        }
+      ]
+    },
+    {
+      "attribute": "name",
+      "semanticTypes": [
+        {
+          "class": "aac:Person",
+          "predicate": "foaf:name",
+          "confidence": 0.65
+        },
+        {
+          "class": "foaf:Person",
+          "predicate": "foaf:name",
+          "confidence": 0.32
+        }
+      ]
+    }
+  ]
+}

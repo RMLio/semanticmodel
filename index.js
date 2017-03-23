@@ -4,5 +4,6 @@
 
 module.exports = {
   nodeType: require('./lib/type.js'),
-  SemanticModel: require('./lib/semanticmodel.js')
+  SemanticModel: require('./lib/semanticmodel.js'),
+  CandidateMappingGenerator: require('./lib/candidatemappinggenerator.js')
 };
