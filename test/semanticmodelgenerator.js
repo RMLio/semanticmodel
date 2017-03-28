@@ -5,22 +5,31 @@
 let assert = require('chai').assert;
 let SemanticModel = require('../index.js').SemanticModel;
 let CandidateMappingGenerator = require('../index.js').CandidateMappingGenerator;
+let SemanticModelGenerator = require('../index.js').SemanticModelGenerator;
 let type = require('../index.js').nodeType.types;
 let dma = require('./dma.json');
 let npg = require('./npg.json');
 let semanticTypes = require('./semantictypes.json').semanticTypes;
 let attributes = require('./attributes.json').attributes;
 
-describe('Generate Candidate Mappings:', function () {
-  it('#1', function () {
+describe('Generate Semantic Models:', function () {
+  it.only('#1', function () {
     let sm1 = new SemanticModel();
     sm1.importModel(dma);
     let sm2 = new SemanticModel();
     sm2.importModel(npg);
-    let graph = new SemanticModel();
+    let graph = new SemanticModel(2);
 
-    graph.addModel(sm1, 'dma');
-    graph.addModel(sm2, 'npg');
+    //graph.addModel(sm1, 'dma');
+    //graph.addModel(sm2, 'npg');
+
+    graph.addModels([{
+      model: sm1,
+      tag: 'dma'
+    }, {
+      model: sm2,
+      tag: 'npg'
+    }]);
 
     graph.addSemanticTypes(semanticTypes);
     graph.addOntologyPaths({
@@ -49,6 +58,8 @@ describe('Generate Candidate Mappings:', function () {
       }
     });
 
+    console.log(JSON.stringify(graph.exportModel()));
+
     //console.log(JSON.stringify(graph.exportModel()));
     let cmg = new CandidateMappingGenerator({
       branchingFactor: 2,
@@ -62,8 +73,23 @@ describe('Generate Candidate Mappings:', function () {
 
     let results = cmg.generateCandidateMappings(attributes, graph);
 
+    //for (let i = 0; i < results.length; i ++) {
+    //  console.log(JSON.stringify(results[i]));
+    //}
+
+    console.log('=====================');
+
+    let t = [];
+
     for (let i = 0; i < results.length; i ++) {
-      console.log(JSON.stringify(results[i]));
+      let smg = new SemanticModelGenerator(graph, 2);
+      let r = smg.getModels(results[i], 2);
+      t.push(r[0]);
+      t.push(r[1]);
     }
+
+    t.forEach(function(a){
+      console.log(a);
+    });
   });
 });

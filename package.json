@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "extend": "^3.0.0",
-    "heap": "^0.2.6"
+    "heap": "^0.2.6",
+    "priorityqueuejs": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
