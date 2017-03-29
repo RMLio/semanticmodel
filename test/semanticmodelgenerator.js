@@ -86,10 +86,18 @@ describe('Generate Semantic Models:', function () {
       let r = smg.getModels(results[i], 2);
       t.push(r[0]);
       t.push(r[1]);
+      console.log('---------------------');
     }
 
+    t = SemanticModelGenerator.sortTrees(t);
+
+    console.log('===================== ' + results.length);
+
     t.forEach(function(a){
+      a.edgeIDs.sort(function(a, b){return a -b;});
       console.log(a);
     });
+
+    console.log(JSON.stringify(SemanticModel.getModelBasedOnTree(t[0], graph)));
   });
 });
