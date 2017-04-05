@@ -12,7 +12,7 @@ let semanticTypes = require('./semantictypes.json').semanticTypes;
 let attributes = require('./attributes.json').attributes;
 
 describe('Generate Candidate Mappings:', function () {
-  it.only('#1', function () {
+  it('#1', function () {
     let sm1 = new SemanticModel();
     sm1.importModel(dma);
     let sm2 = new SemanticModel();

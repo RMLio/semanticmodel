@@ -1,0 +1,206 @@
+{
+  "trees": [
+    {
+      "weight": 14.666666666666668,
+      "edgeIDs": [
+        11,
+        8,
+        10,
+        12,
+        9,
+        24
+      ],
+      "coherence": 0.8333333333333334
+    },
+    {
+      "weight": 24.666666666666664,
+      "edgeIDs": [
+        11,
+        8,
+        10,
+        24,
+        32,
+        9
+      ],
+      "coherence": 0.6666666666666666
+    },
+    {
+      "weight": 31.333333333333332,
+      "edgeIDs": [
+        11,
+        36,
+        10,
+        12,
+        9,
+        24
+      ],
+      "coherence": 0.6666666666666666
+    },
+    {
+      "weight": 16,
+      "edgeIDs": [
+        12,
+        9,
+        10,
+        22,
+        20,
+        24
+      ],
+      "coherence": 0.5
+    },
+    {
+      "weight": 16,
+      "edgeIDs": [
+        12,
+        9,
+        10,
+        22,
+        20,
+        24
+      ],
+      "coherence": 0.5
+    },
+    {
+      "weight": 41.33333333333333,
+      "edgeIDs": [
+        11,
+        36,
+        10,
+        24,
+        32,
+        9
+      ],
+      "coherence": 0.5
+    }
+  ],
+  "models": [
+    {
+      "nodes": [
+        {
+          "type": 0,
+          "tags": [
+            "dma",
+            "npg"
+          ],
+          "label": "aac:Person",
+          "weight": 0.33333333333333337,
+          "id": 1
+        },
+        {
+          "type": 1,
+          "tags": [
+            "dma",
+            "npg"
+          ],
+          "label": "name",
+          "id": 5
+        },
+        {
+          "type": 0,
+          "tags": [
+            "dma",
+            "npg"
+          ],
+          "label": "aac:CulturalHeritageObject",
+          "weight": 0.33333333333333337,
+          "id": 0
+        },
+        {
+          "type": 1,
+          "tags": [
+            "dma"
+          ],
+          "label": "title",
+          "id": 4
+        },
+        {
+          "type": 0,
+          "tags": [
+            "dma"
+          ],
+          "label": "skos:Concept",
+          "weight": 0.6666666666666667,
+          "id": 2
+        },
+        {
+          "type": 1,
+          "tags": [
+            "dma"
+          ],
+          "label": "classification",
+          "id": 6
+        },
+        {
+          "type": 1,
+          "tags": [],
+          "label": "credit",
+          "id": 23
+        }
+      ],
+      "edges": [
+        {
+          "tags": [
+            "dma",
+            "npg"
+          ],
+          "label": "foaf:name",
+          "source": 1,
+          "target": 5,
+          "weight": 0.33333333333333337,
+          "id": 11
+        },
+        {
+          "tags": [
+            "dma",
+            "npg"
+          ],
+          "label": "dcterms:creator",
+          "source": 0,
+          "target": 1,
+          "weight": 0.33333333333333337,
+          "id": 8
+        },
+        {
+          "tags": [
+            "dma"
+          ],
+          "label": "dcterms:title",
+          "source": 0,
+          "target": 4,
+          "weight": 1,
+          "id": 10
+        },
+        {
+          "tags": [
+            "dma"
+          ],
+          "label": "skos:prefLabel",
+          "source": 2,
+          "target": 6,
+          "weight": 1,
+          "id": 12
+        },
+        {
+          "tags": [
+            "dma"
+          ],
+          "label": "dcterms:hasType",
+          "source": 0,
+          "target": 2,
+          "weight": 1,
+          "id": 9
+        },
+        {
+          "tags": [],
+          "label": "dcterms:provenance",
+          "source": 0,
+          "target": 23,
+          "weight": 11,
+          "id": 24
+        }
+      ],
+      "counter": 25,
+      "defaultWeight": 1
+    }
+  ]
+}

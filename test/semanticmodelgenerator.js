@@ -13,15 +13,12 @@ let semanticTypes = require('./semantictypes.json').semanticTypes;
 let attributes = require('./attributes.json').attributes;
 
 describe('Generate Semantic Models:', function () {
-  it('#1', function () {
+  it.only('#1', function () {
     let sm1 = new SemanticModel();
     sm1.importModel(dma);
     let sm2 = new SemanticModel();
     sm2.importModel(npg);
     let graph = new SemanticModel(2);
-
-    //graph._addModel(sm1, 'dma');
-    //graph._addModel(sm2, 'npg');
 
     graph.addModels([{
       model: sm1,
@@ -58,7 +55,7 @@ describe('Generate Semantic Models:', function () {
       }
     });
 
-    console.log(JSON.stringify(graph.exportModel()));
+    //console.log(JSON.stringify(graph.exportModel()));
 
     //console.log(JSON.stringify(graph.exportModel()));
     let cmg = new CandidateMappingGenerator({
@@ -77,8 +74,6 @@ describe('Generate Semantic Models:', function () {
     //  console.log(JSON.stringify(results[i]));
     //}
 
-    console.log('=====================');
-
     let t = [];
 
     for (let i = 0; i < results.length; i ++) {
@@ -86,18 +81,12 @@ describe('Generate Semantic Models:', function () {
       let r = smg.getModels(results[i], 2);
       t.push(r[0]);
       t.push(r[1]);
-      console.log('---------------------');
     }
 
     t = SemanticModelGenerator.sortTrees(t);
+    assert.deepEqual(t, require('./semanticmodelgenerator.json').trees, 'Trees are not correct.');
+    assert.deepEqual(SemanticModel.getModelBasedOnTree(t[0], graph), require('./semanticmodelgenerator.json').models[0], 'Model is not correct.');
 
-    console.log('===================== ' + results.length);
-
-    t.forEach(function(a){
-      a.edgeIDs.sort(function(a, b){return a -b;});
-      console.log(a);
-    });
-
-    console.log(JSON.stringify(SemanticModel.getModelBasedOnTree(t[0], graph)));
+    //console.log(JSON.stringify(SemanticModel.getModelBasedOnTree(t[0], graph)));
   });
 });
