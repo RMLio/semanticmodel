@@ -7,7 +7,8 @@
         "npg"
       ],
       "label": "aac:CulturalHeritageObject",
-      "id": 0
+      "id": 0,
+      "weight": null
     },
     {
       "type": 0,
@@ -16,7 +17,8 @@
         "npg"
       ],
       "label": "aac:Person",
-      "id": 1
+      "id": 1,
+      "weight": null
     },
     {
       "type": 0,
@@ -24,7 +26,8 @@
         "dma"
       ],
       "label": "skos:Concept",
-      "id": 2
+      "id": 2,
+      "weight": null
     },
     {
       "type": 1,
@@ -66,7 +69,8 @@
         "npg"
       ],
       "label": "edm:EuropeanaAggregation",
-      "id": 13
+      "id": 13,
+      "weight": null
     },
     {
       "type": 0,
@@ -74,7 +78,8 @@
         "npg"
       ],
       "label": "edm:WebResource",
-      "id": 14
+      "id": 14,
+      "weight": null
     },
     {
       "type": 0,
@@ -82,7 +87,8 @@
         "npg"
       ],
       "label": "aac:Person",
-      "id": 15
+      "id": 15,
+      "weight": null
     },
     {
       "type": 1,
@@ -134,7 +140,8 @@
       "type": 0,
       "tags": [],
       "label": "foaf:Person",
-      "id": 33
+      "id": 33,
+      "weight": null
     },
     {
       "type": 1,
@@ -152,7 +159,8 @@
       "label": "dcterms:created",
       "source": 0,
       "target": 3,
-      "id": 7
+      "id": 7,
+      "weight": null
     },
     {
       "tags": [
@@ -162,7 +170,8 @@
       "label": "dcterms:creator",
       "source": 0,
       "target": 1,
-      "id": 8
+      "id": 8,
+      "weight": null
     },
     {
       "tags": [
@@ -171,7 +180,8 @@
       "label": "dcterms:hasType",
       "source": 0,
       "target": 2,
-      "id": 9
+      "id": 9,
+      "weight": null
     },
     {
       "tags": [
@@ -180,7 +190,8 @@
       "label": "dcterms:title",
       "source": 0,
       "target": 4,
-      "id": 10
+      "id": 10,
+      "weight": null
     },
     {
       "tags": [
@@ -190,7 +201,8 @@
       "label": "foaf:name",
       "source": 1,
       "target": 5,
-      "id": 11
+      "id": 11,
+      "weight": null
     },
     {
       "tags": [
@@ -199,7 +211,8 @@
       "label": "skos:prefLabel",
       "source": 2,
       "target": 6,
-      "id": 12
+      "id": 12,
+      "weight": null
     },
     {
       "tags": [
@@ -208,7 +221,8 @@
       "label": "edm:aggregatedCHO",
       "source": 13,
       "target": 0,
-      "id": 18
+      "id": 18,
+      "weight": null
     },
     {
       "tags": [
@@ -217,7 +231,8 @@
       "label": "edm:hasView",
       "source": 13,
       "target": 14,
-      "id": 19
+      "id": 19,
+      "weight": null
     },
     {
       "tags": [
@@ -226,7 +241,8 @@
       "label": "aac:sitter",
       "source": 0,
       "target": 15,
-      "id": 20
+      "id": 20,
+      "weight": null
     },
     {
       "tags": [
@@ -235,7 +251,8 @@
       "label": "karma:uri",
       "source": 14,
       "target": 16,
-      "id": 21
+      "id": 21,
+      "weight": null
     },
     {
       "tags": [
@@ -244,77 +261,88 @@
       "label": "foaf:name",
       "source": 15,
       "target": 17,
-      "id": 22
+      "id": 22,
+      "weight": null
     },
     {
       "tags": [],
       "label": "dcterms:provenance",
       "source": 0,
       "target": 23,
-      "id": 24
+      "id": 24,
+      "weight": null
     },
     {
       "tags": [],
       "label": "ElementsGr2:note",
       "source": 1,
       "target": 25,
-      "id": 26
+      "id": 26,
+      "weight": null
     },
     {
       "tags": [],
       "label": "ElementsGr2:note",
       "source": 15,
       "target": 27,
-      "id": 28
+      "id": 28,
+      "weight": null
     },
     {
       "tags": [],
       "label": "rdfs:label",
       "source": 0,
       "target": 29,
-      "id": 30
+      "id": 30,
+      "weight": null
     },
     {
       "tags": [],
       "label": "rdfs:label",
       "source": 2,
       "target": 31,
-      "id": 32
+      "id": 32,
+      "weight": null
     },
     {
       "tags": [],
       "label": "foaf:name",
       "source": 33,
       "target": 34,
-      "id": 35
+      "id": 35,
+      "weight": null
     },
     {
       "tags": [],
       "label": "aac:sitter",
       "source": 0,
       "target": 1,
-      "id": 36
+      "id": 36,
+      "weight": null
     },
     {
       "tags": [],
       "label": "dcterms:creator",
       "source": 0,
       "target": 15,
-      "id": 37
+      "id": 37,
+      "weight": null
     },
     {
       "tags": [],
       "label": "dcterms:creator",
       "source": 0,
       "target": 33,
-      "id": 38
+      "id": 38,
+      "weight": null
     },
     {
       "tags": [],
       "label": "ore:aggregates",
       "source": 13,
       "target": 0,
-      "id": 39
+      "id": 39,
+      "weight": null
     }
   ],
   "counter": 40

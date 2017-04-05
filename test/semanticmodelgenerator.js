@@ -20,8 +20,8 @@ describe('Generate Semantic Models:', function () {
     sm2.importModel(npg);
     let graph = new SemanticModel(2);
 
-    //graph.addModel(sm1, 'dma');
-    //graph.addModel(sm2, 'npg');
+    //graph._addModel(sm1, 'dma');
+    //graph._addModel(sm2, 'npg');
 
     graph.addModels([{
       model: sm1,

@@ -14,7 +14,7 @@ let npg = require('./npg.json');
 let RMLMappingGenerator = require('../lib/rmlmappinggenerator.js');
 
 describe('RMLMappingGenerator: ', function () {
-  it.only('#1', function () {
+  it('#1', function () {
     let sm1 = new SemanticModel();
     sm1.importModel(dma);
     let rmg = new RMLMappingGenerator({baseIRI: 'http://www.mymapping.com#'});

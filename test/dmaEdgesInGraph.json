@@ -6,7 +6,8 @@
         "dma"
       ],
       "label": "aac:CulturalHeritageObject",
-      "id": 0
+      "id": 0,
+      "weight": null
     },
     {
       "type": 0,
@@ -14,7 +15,8 @@
         "dma"
       ],
       "label": "aac:Person",
-      "id": 1
+      "id": 1,
+      "weight": null
     },
     {
       "type": 0,
@@ -22,7 +24,8 @@
         "dma"
       ],
       "label": "skos:Concept",
-      "id": 2
+      "id": 2,
+      "weight": null
     },
     {
       "type": 1,
@@ -65,7 +68,8 @@
       "label": "dcterms:created",
       "source": 0,
       "target": 3,
-      "id": 7
+      "id": 7,
+      "weight": null
     },
     {
       "tags": [
@@ -74,7 +78,8 @@
       "label": "dcterms:creator",
       "source": 0,
       "target": 1,
-      "id": 8
+      "id": 8,
+      "weight": null
     },
     {
       "tags": [
@@ -83,7 +88,8 @@
       "label": "dcterms:hasType",
       "source": 0,
       "target": 2,
-      "id": 9
+      "id": 9,
+      "weight": null
     },
     {
       "tags": [
@@ -92,7 +98,8 @@
       "label": "dcterms:title",
       "source": 0,
       "target": 4,
-      "id": 10
+      "id": 10,
+      "weight": null
     },
     {
       "tags": [
@@ -101,7 +108,8 @@
       "label": "foaf:name",
       "source": 1,
       "target": 5,
-      "id": 11
+      "id": 11,
+      "weight": null
     },
     {
       "tags": [
@@ -110,7 +118,8 @@
       "label": "skos:prefLabel",
       "source": 2,
       "target": 6,
-      "id": 12
+      "id": 12,
+      "weight": null
     }
   ],
   "counter": 13

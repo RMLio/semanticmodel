@@ -7,7 +7,8 @@
         "npg"
       ],
       "label": "aac:CulturalHeritageObject",
-      "id": 0
+      "id": 0,
+      "weight": null
     },
     {
       "type": 0,
@@ -16,7 +17,8 @@
         "npg"
       ],
       "label": "aac:Person",
-      "id": 1
+      "id": 1,
+      "weight": null
     },
     {
       "type": 0,
@@ -24,7 +26,8 @@
         "dma"
       ],
       "label": "skos:Concept",
-      "id": 2
+      "id": 2,
+      "weight": null
     },
     {
       "type": 1,
@@ -64,7 +67,8 @@
         "npg"
       ],
       "label": "edm:EuropeanaAggregation",
-      "id": 7
+      "id": 7,
+      "weight": null
     },
     {
       "type": 0,
@@ -72,7 +76,8 @@
         "npg"
       ],
       "label": "edm:WebResource",
-      "id": 8
+      "id": 8,
+      "weight": null
     },
     {
       "type": 0,
@@ -80,14 +85,15 @@
         "npg"
       ],
       "label": "aac:Person",
-      "id": 9
+      "id": 9,
+      "weight": null
     },
     {
       "type": 1,
       "tags": [
         "npg"
       ],
-      "label": "creationDate",
+      "label": "year",
       "id": 10
     },
     {

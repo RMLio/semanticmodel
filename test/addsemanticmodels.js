@@ -112,18 +112,18 @@ describe('Add Semantic Models:', function () {
 
     let graph = new SemanticModel();
 
-    graph.addModel(sm1, 'dma');
+    graph._addModel(sm1, 'dma');
 
     assert.deepEqual(graph.exportModel(), require('./dmaEdgesInGraph.json'), 'Adding DMA to graph is not correctly done');
 
     graph = new SemanticModel();
-    graph.addModel(sm2, 'dma');
+    graph._addModel(sm2, 'dma');
 
     assert.deepEqual(graph.exportModel(), require('./npgEdgesInGraph.json'), 'Adding NPG to graph is not correctly done');
 
     graph = new SemanticModel();
-    graph.addModel(sm1, 'dma');
-    graph.addModel(sm2, 'npg');
+    graph._addModel(sm1, 'dma');
+    graph._addModel(sm2, 'npg');
 
     assert.deepEqual(graph.exportModel(), require('./dmanpgEdgesInGraph.json'), 'Adding DMA and NPG to graph is not correctly done');
   });

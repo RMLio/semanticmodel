@@ -17,8 +17,8 @@ describe('Add Semantic Types:', function () {
     sm2.importModel(npg);
     let graph = new SemanticModel();
 
-    graph.addModel(sm1, 'dma');
-    graph.addModel(sm2, 'npg');
+    graph._addModel(sm1, 'dma');
+    graph._addModel(sm2, 'npg');
 
     graph.addSemanticTypes(semanticTypes);
 
