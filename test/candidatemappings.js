@@ -12,7 +12,7 @@ let semanticTypes = require('./semantictypes.json').semanticTypes;
 let attributes = require('./attributes.json').attributes;
 
 describe('Generate Candidate Mappings:', function () {
-  it('#1', function () {
+  it.only('#1', function () {
     let sm1 = new SemanticModel();
     sm1.importModel(dma);
     let sm2 = new SemanticModel();
@@ -62,8 +62,6 @@ describe('Generate Candidate Mappings:', function () {
 
     let results = cmg.generateCandidateMappings(attributes, graph);
 
-    for (let i = 0; i < results.length; i ++) {
-      console.log(JSON.stringify(results[i]));
-    }
+    assert.deepEqual(results, require('./candidatemappings.json').mappings, 'Candidate mappings are not correct.');
   });
 });
