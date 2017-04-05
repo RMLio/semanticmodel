@@ -20,8 +20,8 @@ describe('RMLMappingGenerator: ', function () {
     let rmg = new RMLMappingGenerator({baseIRI: 'http://www.mymapping.com#'});
 
     let triples = rmg.generate(sm1);
-    console.log(triples);
+    //console.log(JSON.stringify(triples));
 
-    //assert.deepEqual(graph.exportModel(), require('./dmanpgClassesInGraph.json'), 'Adding NPG and DMA to graph is not correctly done');
+    assert.deepEqual(triples, require('./rmlmappinggenerator.json').triples, 'RML mapping is not correct.');
   });
 });
