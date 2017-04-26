@@ -48,7 +48,7 @@
     {
       "subject": "http://www.mymapping.com#0-OM-7",
       "predicate": "http://semweb.mmlab.be/ns/rml#reference",
-      "object": "creationDate"
+      "object": "\"creationDate\""
     },
     {
       "subject": "http://www.mymapping.com#0",
@@ -108,7 +108,7 @@
     {
       "subject": "http://www.mymapping.com#0-OM-10",
       "predicate": "http://semweb.mmlab.be/ns/rml#reference",
-      "object": "title"
+      "object": "\"title\""
     },
     {
       "subject": "http://www.mymapping.com#1",
@@ -128,7 +128,7 @@
     {
       "subject": "http://www.mymapping.com#1-OM-11",
       "predicate": "http://semweb.mmlab.be/ns/rml#reference",
-      "object": "name"
+      "object": "\"name\""
     },
     {
       "subject": "http://www.mymapping.com#2",
@@ -148,7 +148,7 @@
     {
       "subject": "http://www.mymapping.com#2-OM-12",
       "predicate": "http://semweb.mmlab.be/ns/rml#reference",
-      "object": "type"
+      "object": "\"type\""
     }
   ]
 }
