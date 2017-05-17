@@ -5,7 +5,7 @@
 let assert = require('chai').assert;
 let SemanticModel = require('../index.js').SemanticModel;
 let CandidateMappingGenerator = require('../index.js').CandidateMappingGenerator;
-let SemanticModelGenerator = require('../index.js').SemanticModelGenerator;
+let SemanticModelGenerator = require('../index.js').CandidateMappingToSemanticModelGenerator;
 let Utils = require('../index.js').Utils;
 let type = require('../index.js').nodeType.types;
 let dma = require('./dma.json');
@@ -85,8 +85,8 @@ describe('Generate Semantic Models:', function () {
     }
 
     t = Utils.sortTrees(t);
-    assert.deepEqual(t, require('./semanticmodelgenerator.json').trees, 'Trees are not correct.');
-    assert.deepEqual(SemanticModel.getModelBasedOnTree(t[0], graph), require('./semanticmodelgenerator.json').models[0], 'Model is not correct.');
+    assert.deepEqual(t, require('./candidatemappingtosemanticmodelgenerator.json').trees, 'Trees are not correct.');
+    assert.deepEqual(SemanticModel.getModelBasedOnTree(t[0], graph), require('./candidatemappingtosemanticmodelgenerator.json').models[0], 'Model is not correct.');
 
     //console.log(JSON.stringify(SemanticModel.getModelBasedOnTree(t[0], graph)));
   });
