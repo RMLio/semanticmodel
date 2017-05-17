@@ -11,7 +11,8 @@
   "dependencies": {
     "extend": "^3.0.0",
     "heap": "^0.2.6",
-    "prefix-ns": "^0.1.1",
+    "n3": "^0.10.0",
+    "prefix-ns": "^0.1.2",
     "priorityqueuejs": "^1.0.0",
     "tracer": "^0.8.7"
   },

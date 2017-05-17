@@ -7,6 +7,7 @@ module.exports = {
   SemanticModel: require('./lib/semanticmodel.js'),
   CandidateMappingGenerator: require('./lib/candidatemappinggenerator.js'),
   CandidateMappingToSemanticModelGenerator: require('./lib/candidatemappingtosemanticmodelgenerator.js'),
+  RMLMappingToSemanticModelGenerator: require('./lib/rmlmappingtosemanticmodelgenerator.js'),
   RMLMappingGenerator: require('./lib/rmlmappinggenerator.js'),
   Utils: require('./lib/utils.js')
 };
