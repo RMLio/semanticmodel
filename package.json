@@ -1,6 +1,6 @@
 {
   "name": "semanticmodel",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Implementation of the semantinc model as defined by Mohsen Taheriyan.",
   "main": "index.js",
   "scripts": {
