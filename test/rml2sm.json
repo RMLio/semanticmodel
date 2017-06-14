@@ -68,7 +68,7 @@
           "object": "http://www.example.org#name"
         }
       ],
-      "sm": {"nodes":[{"type":0,"tags":[],"weight":null,"id":0},{"type":1,"tags":[],"id":1}],"edges":[{"tags":[],"label":"http://www.example.org#name","source":0,"target":1,"id":2}],"counter":3}
+      "sm": {"nodes":[{"type":0,"tags":[],"weight":null,"id":0},{"type":1,"tags":[],"id":1}],"edges":[{"tags":[],"label":"http://www.example.org#name","source":0,"target":1,"joinConditions": [],"id":2}],"counter":3}
     },
     {
       "rml": [
@@ -98,7 +98,7 @@
           "object": "\"name\""
         }
       ],
-      "sm": {"nodes":[{"type":0,"tags":[],"weight":null,"id":0},{"type":1,"tags":[],"label":"name","id":1}],"edges":[{"tags":[],"label":"http://www.example.org#name","source":0,"target":1,"id":2}],"counter":3}
+      "sm": {"nodes":[{"type":0,"tags":[],"weight":null,"id":0},{"type":1,"tags":[],"label":"name","id":1}],"edges":[{"tags":[],"label":"http://www.example.org#name","source":0,"target":1,"joinConditions": [],"id":2}],"counter":3}
     },
     {
       "rml": [
@@ -133,7 +133,7 @@
           "object": "\"name\""
         }
       ],
-      "sm": {"nodes":[{"type":0,"tags":[],"weight":null,"id":0},{"type":1,"tags":[],"label":"name","id":1},{"type":1,"tags":[],"label":"name","id":3}],"edges":[{"tags":[],"label":"http://www.example.org#name","source":0,"target":1,"id":2},{"tags":[],"label":"http://www.example.org#extra_name","source":0,"target":3,"id":4}],"counter":5}
+      "sm": {"nodes":[{"type":0,"tags":[],"weight":null,"id":0},{"type":1,"tags":[],"label":"name","id":1},{"type":1,"tags":[],"label":"name","id":3}],"edges":[{"tags":[],"label":"http://www.example.org#name","source":0,"joinConditions": [],"target":1,"id":2},{"tags":[],"label":"http://www.example.org#extra_name","source":0,"target":3,"joinConditions": [],"id":4}],"counter":5}
     },
     {
       "rml": [
@@ -188,7 +188,7 @@
           "object": "\"$.persons[*]\""
         }
       ],
-      "sm": {"nodes":[{"type":0,"tags":[],"weight":null,"id":0,"sourceDescription":{"source":"data.json","iterator":"$.persons[*]","type":"json"}},{"type":1,"tags":[],"label":"name","sourceDescription":{"source":"data.json","iterator":"$.persons[*]","type":"json"},"id":1},{"type":1,"tags":[],"label":"name","sourceDescription":{"source":"data.json","iterator":"$.persons[*]","type":"json"},"id":3}],"edges":[{"tags":[],"label":"http://www.example.org#name","source":0,"target":1,"id":2},{"tags":[],"label":"http://www.example.org#extra_name","source":0,"target":3,"id":4}],"counter":5}
+      "sm": {"nodes":[{"type":0,"tags":[],"weight":null,"id":0,"sourceDescription":{"source":"data.json","iterator":"$.persons[*]","type":"json"}},{"type":1,"tags":[],"label":"name","sourceDescription":{"source":"data.json","iterator":"$.persons[*]","type":"json"},"id":1},{"type":1,"tags":[],"label":"name","sourceDescription":{"source":"data.json","iterator":"$.persons[*]","type":"json"},"id":3}],"edges":[{"tags":[],"label":"http://www.example.org#name","source":0,"target":1,"joinConditions": [],"id":2},{"tags":[],"label":"http://www.example.org#extra_name","source":0,"target":3,"joinConditions": [],"id":4}],"counter":5}
     }
   ]
 }

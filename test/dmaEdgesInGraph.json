@@ -69,6 +69,7 @@
       "source": 0,
       "target": 3,
       "id": 7,
+      "joinConditions": [],
       "weight": null
     },
     {
@@ -79,6 +80,7 @@
       "source": 0,
       "target": 1,
       "id": 8,
+      "joinConditions": [],
       "weight": null
     },
     {
@@ -89,6 +91,7 @@
       "source": 0,
       "target": 2,
       "id": 9,
+      "joinConditions": [],
       "weight": null
     },
     {
@@ -99,6 +102,7 @@
       "source": 0,
       "target": 4,
       "id": 10,
+      "joinConditions": [],
       "weight": null
     },
     {
@@ -109,6 +113,7 @@
       "source": 1,
       "target": 5,
       "id": 11,
+      "joinConditions": [],
       "weight": null
     },
     {
@@ -119,6 +124,7 @@
       "source": 2,
       "target": 6,
       "id": 12,
+      "joinConditions": [],
       "weight": null
     }
   ],

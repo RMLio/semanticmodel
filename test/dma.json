@@ -65,6 +65,7 @@
       "label": "dcterms:created",
       "source": 0,
       "target": 3,
+      "joinConditions": [],
       "id": 7
     },
     {
@@ -74,6 +75,7 @@
       "label": "dcterms:creator",
       "source": 0,
       "target": 1,
+      "joinConditions": [],
       "id": 8
     },
     {
@@ -83,6 +85,7 @@
       "label": "dcterms:hasType",
       "source": 0,
       "target": 2,
+      "joinConditions": [],
       "id": 9
     },
     {
@@ -92,6 +95,7 @@
       "label": "dcterms:title",
       "source": 0,
       "target": 6,
+      "joinConditions": [],
       "id": 10
     },
     {
@@ -101,6 +105,7 @@
       "label": "foaf:name",
       "source": 1,
       "target": 4,
+      "joinConditions": [],
       "id": 11
     },
     {
@@ -110,6 +115,7 @@
       "label": "skos:prefLabel",
       "source": 2,
       "target": 5,
+      "joinConditions": [],
       "id": 12
     }
   ],

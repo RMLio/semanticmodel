@@ -147,6 +147,7 @@
           "source": 1,
           "target": 5,
           "weight": 0.33333333333333337,
+          "joinConditions": [],
           "id": 11
         },
         {
@@ -158,6 +159,7 @@
           "source": 0,
           "target": 1,
           "weight": 0.33333333333333337,
+          "joinConditions": [],
           "id": 8
         },
         {
@@ -168,6 +170,7 @@
           "source": 0,
           "target": 4,
           "weight": 1,
+          "joinConditions": [],
           "id": 10
         },
         {
@@ -178,6 +181,7 @@
           "source": 2,
           "target": 6,
           "weight": 1,
+          "joinConditions": [],
           "id": 12
         },
         {
@@ -188,6 +192,7 @@
           "source": 0,
           "target": 2,
           "weight": 1,
+          "joinConditions": [],
           "id": 9
         },
         {
@@ -196,6 +201,7 @@
           "source": 0,
           "target": 23,
           "weight": 11,
+          "joinConditions": [],
           "id": 24
         }
       ],

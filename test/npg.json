@@ -81,6 +81,7 @@
       "label": "edm:aggregatedCHO",
       "source": 0,
       "target": 1,
+      "joinConditions": [],
       "id": 9
     },
     {
@@ -90,6 +91,7 @@
       "label": "edm:hasView",
       "source": 0,
       "target": 2,
+      "joinConditions": [],
       "id": 10
     },
     {
@@ -99,6 +101,7 @@
       "label": "dcterms:creator",
       "source": 1,
       "target": 3,
+      "joinConditions": [],
       "id": 11
     },
     {
@@ -108,6 +111,7 @@
       "label": "aac:sitter",
       "source": 1,
       "target": 4,
+      "joinConditions": [],
       "id": 12
     },
     {
@@ -117,6 +121,7 @@
       "label": "dcterms:created",
       "source": 1,
       "target": 7,
+      "joinConditions": [],
       "id": 13
     },
     {
@@ -126,6 +131,7 @@
       "label": "karma:uri",
       "source": 2,
       "target": 8,
+      "joinConditions": [],
       "id": 14
     },
     {
@@ -135,6 +141,7 @@
       "label": "foaf:name",
       "source": 3,
       "target": 5,
+      "joinConditions": [],
       "id": 15
     },
     {
@@ -144,6 +151,7 @@
       "label": "foaf:name",
       "source": 4,
       "target": 6,
+      "joinConditions": [],
       "id": 16
     }
   ],
