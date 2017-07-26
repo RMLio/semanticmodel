@@ -7,7 +7,7 @@
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Pieter Heyvaert <pheyvaer.heyvaert@ugent.be> (https://pieterheyvaert.com)",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "dependencies": {
     "extend": "^3.0.0",
     "heap": "^0.2.6",
@@ -19,5 +19,6 @@
   "devDependencies": {
     "chai": "^3.4.1",
     "mocha": "^2.4.4"
-  }
+  },
+  "repository": "https://github.com/RMLio/semanticmodel"
 }
